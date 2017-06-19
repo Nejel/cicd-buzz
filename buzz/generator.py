@@ -1,11 +1,12 @@
 #!/usr/bin/env python 
+# -*- coding: utf-8 -*- 
 
 import random
 
-buzz = ('continuous testing', 'continuous integration', 'continuous deployment', 'continuous improvement', 'devops')
-adjectives = ('complete', 'modern', 'self-service', 'integrated', 'end-to-end')
-adverbs = ('remarkably', 'enormously', 'substantially', 'significantly', 'seriously')
-verbs = ('accelerates', 'improves', 'enhances', 'revamps', 'boosts')
+buzz = ('продолжающиеся тесты', 'интеграция', 'развертка', 'улучшение', 'девопс')
+adjectives = ('завершает', 'современный', 'самоудовлетворяющий', 'встроенный', 'конец-в-конец')
+adverbs = ('отмеченно', 'ненормально', 'приемственность', 'удовлетворительно', 'круто')
+verbs = ('улучшает', 'ухудшает', 'отличает', 'обновляет', 'ускоряет')
 
 
 def sample(l, n=1):
